@@ -1,0 +1,21 @@
+﻿<Window x:Class="DEMOEX.Оплата_адм"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEX"
+        mc:Ignorable="d"
+        Title="Оплата_адм" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Оплата" HorizontalAlignment="Left" Height="400" Margin="10,10,0,0" VerticalAlignment="Top" Width="358" SelectionChanged="Оплата_SelectionChanged"/>
+        <TextBox x:Name="дата" HorizontalAlignment="Left" Height="23" Margin="543,53,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="сумма" HorizontalAlignment="Left" Height="23" Margin="543,122,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="номер" HorizontalAlignment="Left" Height="23" Margin="543,190,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="409,53,0,0" VerticalAlignment="Top" Height="23" Width="70"/>
+        <Label Content="Сумма" HorizontalAlignment="Left" Margin="409,122,0,0" VerticalAlignment="Top" Width="70" Height="23"/>
+        <Label Content="Номер договора" HorizontalAlignment="Left" Margin="409,190,0,0" VerticalAlignment="Top" Height="23" Width="103"/>
+        <Button Content="Добавить оплату" HorizontalAlignment="Left" Margin="377,368,0,0" VerticalAlignment="Top" Width="135" Height="42" Click="Button_Click"/>
+        <Button Content="Выгрузить" HorizontalAlignment="Left" Margin="694,368,0,0" VerticalAlignment="Top" Width="90" Height="46" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

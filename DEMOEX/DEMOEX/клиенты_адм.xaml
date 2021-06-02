@@ -1,0 +1,20 @@
+﻿<Window x:Class="DEMOEX.клиенты_адм"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEX"
+        mc:Ignorable="d"
+        Title="клиенты_адм" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Клиенты" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="440" SelectionChanged="DataGrid_SelectionChanged"/>
+        <TextBox x:Name="Орг" HorizontalAlignment="Left" Height="23" Margin="578,188,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Телефон" HorizontalAlignment="Left" Height="23" Margin="578,257,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ФИО" HorizontalAlignment="Left" Margin="445,58,0,0" VerticalAlignment="Top" Width="85" Height="23"/>
+        <Label Content="Организация" HorizontalAlignment="Left" Margin="445,188,0,0" VerticalAlignment="Top" Height="23" Width="85"/>
+        <Label Content="Телефон" HorizontalAlignment="Left" Margin="445,257,0,0" VerticalAlignment="Top" Height="23" Width="85"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="513,347,0,0" VerticalAlignment="Top" Width="185" Height="52" Click="Button_Click"/>
+        <TextBox x:Name="Fio" HorizontalAlignment="Left" Height="30" Margin="578,62,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" />
+
+    </Grid>
+</Window>

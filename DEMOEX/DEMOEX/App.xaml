@@ -1,0 +1,18 @@
+﻿<Application x:Class="DEMOEX.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-nanespace:DEMOEX"
+      
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="G:\DEMOEX\DEMOEX\ResourceDictionaries\Core.xaml"/>
+
+                <ResourceDictionary Source="G:\DEMOEX\DEMOEX\ResourceDictionaries\Brushes.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+
+</Application>

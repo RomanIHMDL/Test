@@ -1,0 +1,18 @@
+﻿<Window x:Class="DEMOEX.Zakaz"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEX"
+        mc:Ignorable="d"
+        Title="Zakaz" Height="450" Width="800">
+    <Grid>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="28,94,0,0" VerticalAlignment="Top" Width="83" Height="23"/>
+        <Label Content="Номер договора" HorizontalAlignment="Left" Margin="28,160,0,0" VerticalAlignment="Top" Width="106" Height="38"/>
+        <TextBox x:Name="Дата" HorizontalAlignment="Left" Height="23" Margin="282,94,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="Номер_договора" HorizontalAlignment="Left" Height="38" Margin="282,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <Button Content="Продолжить" HorizontalAlignment="Left" Margin="248,346,0,0" VerticalAlignment="Top" Width="154" Height="64" Click="Button_Click"/>
+        <Label x:Name="nomer" Content="" HorizontalAlignment="Left" Margin="282,21,0,0" VerticalAlignment="Top" Height="28" Width="187"/>
+
+    </Grid>
+</Window>

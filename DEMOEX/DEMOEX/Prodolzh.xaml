@@ -1,0 +1,22 @@
+﻿<Window x:Class="DEMOEX.Prodolzh"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEX"
+        mc:Ignorable="d"
+        Title="Prodolzh" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Test" HorizontalAlignment="Left" Height="347" Margin="10,63,0,0" VerticalAlignment="Top" Width="386" SelectionChanged="DataGrid_SelectionChanged"/>
+        <TextBox x:Name="Колич" HorizontalAlignment="Left" Height="23" Margin="567,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="код" HorizontalAlignment="Left" Height="23" Margin="567,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" />
+        <TextBox x:Name="Номер_заказа" HorizontalAlignment="Left" Height="23" Margin="567,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Количество" HorizontalAlignment="Left" Margin="423,45,0,0" VerticalAlignment="Top" Height="23" Width="93"/>
+        <Label Content="Код продукта" HorizontalAlignment="Left" Margin="423,10,0,0" VerticalAlignment="Top" Height="23" Width="93"/>
+        <Label Content="Номер заказа" HorizontalAlignment="Left" Margin="423,91,0,0" VerticalAlignment="Top" Width="93"/>
+        <TextBox x:Name="фильтр" HorizontalAlignment="Left" Height="23" Margin="10,15,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="фильтр_TextChanged" />
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="423,365,0,0" VerticalAlignment="Top" Width="153" Height="45" Click="Button_Click"/>
+        <Button Content="Заказать" HorizontalAlignment="Left" Margin="652,365,0,0" VerticalAlignment="Top" Width="132" Height="45" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

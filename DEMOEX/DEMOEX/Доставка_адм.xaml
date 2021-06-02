@@ -1,0 +1,20 @@
+﻿<Window x:Class="DEMOEX.Доставка_адм"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DEMOEX"
+        mc:Ignorable="d"
+        Title="Доставка_адм" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="Доставки" HorizontalAlignment="Left" Height="420" VerticalAlignment="Top" Width="489"/>
+        <TextBox x:Name="Дата" HorizontalAlignment="Left" Height="23" Margin="674,33,-0.4,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="ФИОКУР" HorizontalAlignment="Left" Height="23" Margin="674,96,-0.4,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="НОМЕРЗАК" HorizontalAlignment="Left" Height="23" Margin="673,160,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Дата" HorizontalAlignment="Left" Margin="525,33,0,0" VerticalAlignment="Top" Height="23" Width="92"/>
+        <Label Content="ФИО Курьера" HorizontalAlignment="Left" Margin="525,96,0,0" VerticalAlignment="Top" Width="92"/>
+        <Label Content="Номер заказа" HorizontalAlignment="Left" Margin="525,160,0,0" VerticalAlignment="Top" Width="92" Height="28"/>
+        <Button Content="Добавить" HorizontalAlignment="Left" Margin="489,314,0,0" VerticalAlignment="Top" Width="295" Click="Button_Click" Height="96"/>
+
+    </Grid>
+</Window>
